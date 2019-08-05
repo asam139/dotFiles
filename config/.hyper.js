@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 12,
 
     // font family with optional fallbacks
-    fontFamily: 'NovaMono for Powerline, "mononoki Nerd Font", Consolas, "Lucida Console", monospace',
+    fontFamily: '"Monoid Nerd Font", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -148,18 +148,15 @@ module.exports = {
   //   `project#1.0.1`
  plugins: [
     "hyper-statusline",
-    "hyperterm-bold-tab"
+    "hyperterm-bold-tab",
     "hyper-tabs-enhanced",
-    "hyper-papercolor",
-    "hyper-opacity",
-    "hyper-simple-highlight-active-session",
     "hypercwd",
     "hyper-pane",
     "hyper-search",
-    "hyperterm-atom-dark",
     "hyperterm-paste",
     "hyper-statusline",
     "hyperterm-summon",
+    "hyperpower"
   ],
 
   // in development, you can create a directory under
