@@ -6,6 +6,15 @@ brew update
 
 ## Install neovim
 brew install neovim
+# Install neovim-dot-app:
+brew tap neovim/neovim
+# Install vim-plug
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+# cloning 
+git clone https://github.com/afshinm/neovim-config.git ~/.config/nvim 
+# Open your Neovim and run:
+# :PlugInstall
 
 ## Install iTerm2
 brew cask install iterm2
@@ -52,6 +61,8 @@ gem install colorls
 
 # Add oh-my-zsh template 
 cp ./zshrc.zsh-template ~/.zshrc
+
+
 
 
 
