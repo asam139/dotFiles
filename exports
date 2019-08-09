@@ -1,0 +1,25 @@
+export ENHANCD_FILTER=fzf
+
+# Add ~/bin to PATH
+export PATH=$PATH:~/bin
+export PATH=/usr/local/bin:$PATH
+
+export PATH="$HOME/bin:$PATH"
+export PATH=$PATH:~/.local/bin
+
+# Adding Scala home to PATH
+export SCALA_HOME="/usr/local/share/scala"
+export PATH=$PATH:$SCALA_HOME/bin
+
+export PATH='/bin:/sbin':"$PATH"
+
+OSX_EXPORTS="$HOME/.exports.osx"
+LINUX_EXPORTS="$HOME/.exports.linux"
+
+if [ -f  $OSX_EXPORTS ]; then
+  source $OSX_EXPORTS
+fi
+
+if [ -f  $LINUX_EXPORTS ]; then
+  source $LINUX_EXPORTS
+fi

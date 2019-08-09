@@ -26,7 +26,7 @@ SPACESHIP_USER_SHOW="true"
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "spaceship" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -80,9 +80,10 @@ SPACESHIP_USER_SHOW="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z)
+plugins=(git z zsh-autosuggestions brew pip)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.profile
 
 # User configuration
 
@@ -109,5 +110,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls=colorls — light — sort-dirs — report
-alias lc=colorls — tree — light
+alias ls='colorls — light — sort-dirs — report'
+alias lc='colorls — tree — light'
