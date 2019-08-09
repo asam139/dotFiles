@@ -1,4 +1,3 @@
-let g:python3_host_prog=$HOME.'/Documents/Projects/neovim_python_env/bin/python'
 
 " Required:
 call plug#begin('~/.local/share/nvim/plugged')
