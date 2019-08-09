@@ -112,3 +112,4 @@ source $HOME/.profile
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls='colorls — light — sort-dirs — report'
 alias lc='colorls — tree — light'
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

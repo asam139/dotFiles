@@ -63,6 +63,9 @@ Plug 'majutsushi/tagbar', { 'on': ['TagBar', 'TagbarToggle'] }
 Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
 Plug 'rakr/vim-one'
 
+# Autocomplete
+Plug 'Valloric/YouCompleteMe'
+
 " Haskell
 Plug 'pbrisbin/vim-syntax-shakespeare', {'for': 'haskell' }
 Plug 'neovimhaskell/haskell-vim', {'for': 'haskell' }
