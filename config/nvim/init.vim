@@ -63,7 +63,7 @@ Plug 'majutsushi/tagbar', { 'on': ['TagBar', 'TagbarToggle'] }
 Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
 Plug 'rakr/vim-one'
 
-# Autocomplete
+" Autocomplete
 Plug 'Valloric/YouCompleteMe'
 
 " Haskell
