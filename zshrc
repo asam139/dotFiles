@@ -82,15 +82,13 @@ SPACESHIP_USER_SHOW="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git z zsh-autosuggestions brew pip)
 
-source $ZSH/oh-my-zsh.sh
-source $HOME/.profile
 
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -102,4 +100,7 @@ source $HOME/.profile
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Sources
+source $ZSH/oh-my-zsh.sh
+source $HOME/.profile
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
