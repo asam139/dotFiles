@@ -75,6 +75,9 @@ SPACESHIP_USER_SHOW="true"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# ZSH Completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
