@@ -36,7 +36,6 @@ fi
 sudo mkdir /usr/local/Frameworks
 sudo chown $(whoami):admin /usr/local/Frameworks
 brew install python
-sudo pip3 install pynvim
 
 echo 'neovim'
 ## Install neovim
@@ -46,6 +45,9 @@ brew tap neovim/neovim
 # Install vim-plug
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+# python3 provider
+pip3 install pynvim
+
 # Open your Neovim and run:
 # :PlugInstall
 
@@ -81,6 +83,9 @@ echo $SHELL # Expected result: /bin/zsh
 ## Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+## Install zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 ## Install spaceship theme
 # Clone
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
@@ -104,11 +109,8 @@ brew cask install font-monoid-nerd-font &&
 brew cask install font-mononoki-nerd-font
 
 ## Install colorls
-# Used for template
+# For ls alias
 gem install colorls
-
-# Add oh-my-zsh template
-cp ./zshrc.zsh-template ~/.zshrc
 
 # Install dotfiles
 echo "Making a backup of your dotfiles ----> $HOME/dotfiles_OLD"
