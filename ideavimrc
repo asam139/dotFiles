@@ -1,0 +1,9 @@
+set hlsearch
+set cursorline
+set relativenumber
+set ignorecase
+set smartcase
+set showmatch
+set incsearch
+set nu
+set so=10
