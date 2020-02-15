@@ -128,7 +128,7 @@ ln -nvfs $DOTFILES_DIR/tmux.conf $HOME/.tmux.conf
 ln -nvfs $DOTFILES_DIR/profile   $HOME/.profile
 ln -nvfs $DOTFILES_DIR/exports   $HOME/.exports
 ln -nvfs $DOTFILES_DIR/aliases   $HOME/.aliases
-ln -nvfs $DOTFILES_DIR/ideavimrc   $HOME/ideavimrc
+ln -nvfs $DOTFILES_DIR/ideavimrc   $HOME/.ideavimrc
 
 mkdir -p $HOME/.config
 
