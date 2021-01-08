@@ -110,7 +110,7 @@ brew install --cask font-mononoki-nerd-font
 
 ## Install colorls
 # For ls alias
-gem install colorls
+sudo gem install colorls
 
 # Install dotfiles
 echo "Making a backup of your dotfiles ----> $HOME/dotfiles_OLD"
