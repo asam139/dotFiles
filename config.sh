@@ -67,10 +67,10 @@ if ! command -v tmuxinator &> /dev/null; then
 fi
 
 ## Install iTerm2
-brew cask install iterm2
+brew install --cask iterm2
 
 ## Install Hyper
-brew cask install hyper
+brew install --cask hyper
 
 ## Install zsh
 brew install zsh zsh-completions
@@ -105,8 +105,8 @@ rm -rf fonts
 
 ## Install nerd-fonts
 brew tap homebrew/cask-fonts &&
-brew cask install font-monoid-nerd-font &&
-brew cask install font-mononoki-nerd-font
+brew install --cask font-monoid-nerd-font &&
+brew install --cask font-mononoki-nerd-font
 
 ## Install colorls
 # For ls alias
