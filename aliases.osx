@@ -1,8 +1,8 @@
 # OSX-Only Aliases
 
 # ls using colorls
-alias ls='colorls --light --sf -r'
-alias lc='colorls --tree --light'
+alias ls='colorls --sf -r'
+alias lc='colorls --tree'
 
 # Remove DS_Store files recursively
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
