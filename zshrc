@@ -86,6 +86,8 @@ SPACESHIP_USER_SHOW="true"
 
 # ZSH Completions
 fpath=(/usr/local/share/zsh-completions $fpath)
+autoload -Uz compinit
+compinit
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
